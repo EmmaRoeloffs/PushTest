@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PushTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Red">
+    <Grid Background="White">
         <Button Height="50" Width="150"></Button>
     </Grid>
 </Window>
