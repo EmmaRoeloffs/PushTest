@@ -25,5 +25,15 @@ namespace PushTest
         {
             myGrid.Background = new SolidColorBrush(Colors.LightBlue);
         }
+
+        private void ButtonRed_Click(object sender, RoutedEventArgs e)
+        {
+            myGrid.Background = new SolidColorBrush(Colors.Red);
+        }
+
+        private void ButtonGreen_Click(object sender, RoutedEventArgs e)
+        {
+            myGrid.Background = new SolidColorBrush(Colors.Green);
+        }
     }
 }

@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="myGrid" Background="White">
         <StackPanel VerticalAlignment="Center">
-            <Button x:Name="ButtonRed" Height="50" Background="Red" Width="150">Red</Button>
+            <Button x:Name="ButtonRed" Height="50" Click="ButtonRed_Click" Background="Red" Width="150">Red</Button>
             <Button x:Name="ButtonBlue" Height="50" Click="ButtonBlue_Click" Background="Aqua" Width="150">Blue</Button>
-            <Button x:Name="ButtonGreen" Height="50" Background="LightGreen" Width="150">Green</Button>
+            <Button x:Name="ButtonGreen" Height="50" Click="ButtonGreen_Click" Background="LightGreen" Width="150">Green</Button>
         </StackPanel>
     </Grid>
 </Window>
