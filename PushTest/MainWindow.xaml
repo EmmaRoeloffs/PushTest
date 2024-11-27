@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="White">
         <StackPanel VerticalAlignment="Center">
-            <Button Height="50" Background="Red" Width="150"></Button>
-            <Button Height="50" Background="Blue" Width="150"></Button>
+            <Button x:Name="ButtonRed" Height="50" Background="Red" Width="150"></Button>
+            <Button x:Name="ButtonBlue" Height="50" Background="Blue" Width="150"></Button>
+            <Button x:Name="ButtonGreen" Height="50" Background="green" Width="150"></Button>
         </StackPanel>
     </Grid>
 </Window>
