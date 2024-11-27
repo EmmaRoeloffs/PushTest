@@ -20,5 +20,10 @@ namespace PushTest
         {
             InitializeComponent();
         }
+
+        private void ButtonBlue_Click(object sender, RoutedEventArgs e)
+        {
+            myGrid.Background = new SolidColorBrush(Colors.LightBlue);
+        }
     }
 }
